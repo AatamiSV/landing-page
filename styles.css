@@ -12,14 +12,14 @@ header {
     width: 100%;
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
     padding: 0;
     margin: 0;
 }
 
 .header-content {
-    margin: 0;
     width: 70%;
-    padding: 20px 200px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -39,3 +39,59 @@ header {
     align-items: center;
 }
 
+main {
+    width: 100%;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: 70%;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.blurb {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #F9FAFB;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3B82F6;
+    border: 0;
+    margin-top: 10px;
+    color: #F9FAFB;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 33px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
