@@ -147,3 +147,31 @@ p.slide-text {
     color: #535353;
     text-align: center;
 }
+
+.quote {
+    width: 100%;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.quote-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+p.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+p.quote-signature {
+    color: #000;
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-end;
+}
